@@ -1,23 +1,23 @@
 Origin: archiemeng.github.io/custom-debs
 Label: Archie Meng's Custom Debs repository
 Codename: trixie
-Date: Tue, 21 May 2024 13:41:33 UTC
+Date: Tue, 21 May 2024 16:05:19 UTC
 Architectures: arm64
 Components: main
 Description: Apt repository for Archie Meng's Custom Deb builds
 MD5Sum:
- 570a9e0208f5b4eca891dc94b67057d3 5689 main/binary-arm64/Packages
- e481a66d9c6f8b4810a816af45dcbdba 1727 main/binary-arm64/Packages.gz
+ 4be935fee3b690456e0577d265b3ecb5 5689 main/binary-arm64/Packages
+ 279516d9d53e4b94fcfaaed6c1233c8a 1731 main/binary-arm64/Packages.gz
  e5565575b6de66b26034fe4d01906a36 185 main/binary-arm64/Release
 SHA1:
- 1f0fc675cb815569beea79e0fae72c2bd2131593 5689 main/binary-arm64/Packages
- 9ac7ed92a4e38715156773cea8f73c09a910af7e 1727 main/binary-arm64/Packages.gz
+ c260ee3b137535342e32d47f7bb4200a0b8bd648 5689 main/binary-arm64/Packages
+ f3680c89c9981f9123cf13c69c2e54288e49d51a 1731 main/binary-arm64/Packages.gz
  5700e0408a43d5a11fbabafe1321515994baeb89 185 main/binary-arm64/Release
 SHA256:
- c801f863810d90cd592a002b17e33a5c20cb614e7ea436924838e20f10d6c1d4 5689 main/binary-arm64/Packages
- 21800f9e2153285b62993fe723e249938e9f5ecc5a57a9d1f582126e249419ec 1727 main/binary-arm64/Packages.gz
+ 6476145812b863ae5140c7afa83fe901091befc178ef15caa7e5b68cab76619a 5689 main/binary-arm64/Packages
+ fdc334062de49479902b3f5f39f7b7243bc89e5d0488255803ee8f23eda6bb98 1731 main/binary-arm64/Packages.gz
  9a2b06ba214eb29950a64a8bb77fe8ed7cabc5a1f1fe8fe777c7093728904ecb 185 main/binary-arm64/Release
 SHA512:
- 4ec2a40365e12765eb5865138a4f79e15b7842d8f4bc3fa6425db59a1c9044440a9bb01607f1f6c952f9f27616d183eafb468b69959098d86b9343f780ef589b 5689 main/binary-arm64/Packages
- d7771f5d69eafcae716cd6e3704fd4296e230377e3ebf5217025e04f4fa171bb9b43d7073e3c6e3d690837179fb80491de61850ef46fbe514a6e08fb0e83321a 1727 main/binary-arm64/Packages.gz
+ db14568d8edb84c0a15b0a3731b301f7bde1da011048fd6fed44ef1800310ee47a04b3b6f35bfe856d6097faf4dca0e0644c70ea65b512c0eca13b5b21c71dfb 5689 main/binary-arm64/Packages
+ 87bdc2bf09d7023f80361e667a5dad1dc350530e77e9b8bdb9904b3858285fb898f4346e9bfdec6aa6593948964bea80192c0d988347241ddadb18d3f55f50b4 1731 main/binary-arm64/Packages.gz
  9e1b2a08439bd4124ce4b6400dba95a423ef3e5728bf101796230e7f04691a10139cf7c6f2b7b709e8a6a4fd6915723785e10573d4bca99e765f7f2447e6d5e8 185 main/binary-arm64/Release
