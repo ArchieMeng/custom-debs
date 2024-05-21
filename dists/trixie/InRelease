@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: archiemeng.github.io/custom-debs
+Label: Archie Meng's Custom Debs repository
+Codename: trixie
+Date: Tue, 21 May 2024 13:41:33 UTC
+Architectures: arm64
+Components: main
+Description: Apt repository for Archie Meng's Custom Deb builds
+MD5Sum:
+ 570a9e0208f5b4eca891dc94b67057d3 5689 main/binary-arm64/Packages
+ e481a66d9c6f8b4810a816af45dcbdba 1727 main/binary-arm64/Packages.gz
+ e5565575b6de66b26034fe4d01906a36 185 main/binary-arm64/Release
+SHA1:
+ 1f0fc675cb815569beea79e0fae72c2bd2131593 5689 main/binary-arm64/Packages
+ 9ac7ed92a4e38715156773cea8f73c09a910af7e 1727 main/binary-arm64/Packages.gz
+ 5700e0408a43d5a11fbabafe1321515994baeb89 185 main/binary-arm64/Release
+SHA256:
+ c801f863810d90cd592a002b17e33a5c20cb614e7ea436924838e20f10d6c1d4 5689 main/binary-arm64/Packages
+ 21800f9e2153285b62993fe723e249938e9f5ecc5a57a9d1f582126e249419ec 1727 main/binary-arm64/Packages.gz
+ 9a2b06ba214eb29950a64a8bb77fe8ed7cabc5a1f1fe8fe777c7093728904ecb 185 main/binary-arm64/Release
+SHA512:
+ 4ec2a40365e12765eb5865138a4f79e15b7842d8f4bc3fa6425db59a1c9044440a9bb01607f1f6c952f9f27616d183eafb468b69959098d86b9343f780ef589b 5689 main/binary-arm64/Packages
+ d7771f5d69eafcae716cd6e3704fd4296e230377e3ebf5217025e04f4fa171bb9b43d7073e3c6e3d690837179fb80491de61850ef46fbe514a6e08fb0e83321a 1727 main/binary-arm64/Packages.gz
+ 9e1b2a08439bd4124ce4b6400dba95a423ef3e5728bf101796230e7f04691a10139cf7c6f2b7b709e8a6a4fd6915723785e10573d4bca99e765f7f2447e6d5e8 185 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEJb+T8HQLzwHGu7wZjveyChgjRVMFAmZMpJEACgkQjveyChgj
+RVPbiggApzMC4+PvUafPIUhX4cEB3VnMGnWY4w9MybOkgITta69qRDX9BSWlGZgD
+REFw6dRi2Xx7j+LVnnY68vBORlDpeRqg5nNuxtWLvzkpmAIGO+nFgtoU/WjLdCux
+FGw5jTIijJW4qeAQNN0JKKfvB78agVefZmcUuYATRZxb/2zxzr7KGr3rzAZoYUr8
+JxHq8ytPPGoI1pZm50jY6jvxMcoCttT+YZxiRRPfR4GRhF1vtUlrO8zVntK/rrKy
+cidvqlcTSdSO8OD5JGmGtsc9VWGX0YQCoeerd7zn6rMmFa8KgFlJQXz+udXQKPro
+kvUNhN9RLIYjZMdLzjW0BsAIiWuqJg==
+=SWg6
+-----END PGP SIGNATURE-----
