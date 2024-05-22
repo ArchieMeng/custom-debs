@@ -1,23 +1,23 @@
 Origin: archiemeng.github.io/custom-debs
 Label: Archie Meng's Custom Debs repository
 Codename: trixie
-Date: Tue, 21 May 2024 16:05:19 UTC
+Date: Wed, 22 May 2024 14:49:40 UTC
 Architectures: arm64
 Components: main
 Description: Apt repository for Archie Meng's Custom Deb builds
 MD5Sum:
- 4be935fee3b690456e0577d265b3ecb5 5689 main/binary-arm64/Packages
- 279516d9d53e4b94fcfaaed6c1233c8a 1731 main/binary-arm64/Packages.gz
+ 48093da434c583bba36f6bce58fbd48c 38253 main/binary-arm64/Packages
+ 2bcc052f3398c1f7f1f9abeb3026732f 11588 main/binary-arm64/Packages.gz
  e5565575b6de66b26034fe4d01906a36 185 main/binary-arm64/Release
 SHA1:
- c260ee3b137535342e32d47f7bb4200a0b8bd648 5689 main/binary-arm64/Packages
- f3680c89c9981f9123cf13c69c2e54288e49d51a 1731 main/binary-arm64/Packages.gz
+ 606f1ec0dba315cf246660c513c0cb348b8998ec 38253 main/binary-arm64/Packages
+ 837e46486bcffff4116aeac349f9666aa91bc684 11588 main/binary-arm64/Packages.gz
  5700e0408a43d5a11fbabafe1321515994baeb89 185 main/binary-arm64/Release
 SHA256:
- 6476145812b863ae5140c7afa83fe901091befc178ef15caa7e5b68cab76619a 5689 main/binary-arm64/Packages
- fdc334062de49479902b3f5f39f7b7243bc89e5d0488255803ee8f23eda6bb98 1731 main/binary-arm64/Packages.gz
+ fd4438078cdc794334c9f66ac8303a88d3cdeba5768f67cb7a9106ed147682f3 38253 main/binary-arm64/Packages
+ c0831fe55e97902f134b5fcebfd2a8d928b0437f3fcc3c20774721159e66ec12 11588 main/binary-arm64/Packages.gz
  9a2b06ba214eb29950a64a8bb77fe8ed7cabc5a1f1fe8fe777c7093728904ecb 185 main/binary-arm64/Release
 SHA512:
- db14568d8edb84c0a15b0a3731b301f7bde1da011048fd6fed44ef1800310ee47a04b3b6f35bfe856d6097faf4dca0e0644c70ea65b512c0eca13b5b21c71dfb 5689 main/binary-arm64/Packages
- 87bdc2bf09d7023f80361e667a5dad1dc350530e77e9b8bdb9904b3858285fb898f4346e9bfdec6aa6593948964bea80192c0d988347241ddadb18d3f55f50b4 1731 main/binary-arm64/Packages.gz
+ 4e2f6976710d1324a6850032f2e8172901208f941e89957ac9b695d3b6f5a1f86eabd762c8402210770c6c2ae35e6de56da879806fc618ff85cd738c821763e3 38253 main/binary-arm64/Packages
+ 3361c2bf0c3c41989476e14071a0d4493b3477490330328f690e4787d18e7dd61e073c67e77cb33cac288cd3c7ebbeab0a6838dbdc00b54961b13d75e4acbe69 11588 main/binary-arm64/Packages.gz
  9e1b2a08439bd4124ce4b6400dba95a423ef3e5728bf101796230e7f04691a10139cf7c6f2b7b709e8a6a4fd6915723785e10573d4bca99e765f7f2447e6d5e8 185 main/binary-arm64/Release
