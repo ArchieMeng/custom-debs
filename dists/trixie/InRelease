@@ -4,34 +4,34 @@ Hash: SHA256
 Origin: archiemeng.github.io/custom-debs
 Label: Archie Meng's Custom Debs repository
 Codename: trixie
-Date: Wed, 22 May 2024 14:49:40 UTC
+Date: Thu, 25 Jul 2024 16:44:37 UTC
 Architectures: arm64
 Components: main
 Description: Apt repository for Archie Meng's Custom Deb builds
 MD5Sum:
- 48093da434c583bba36f6bce58fbd48c 38253 main/binary-arm64/Packages
- 2bcc052f3398c1f7f1f9abeb3026732f 11588 main/binary-arm64/Packages.gz
+ e259fdf8b5e42afc5ed5ab05526c42b2 39951 main/binary-arm64/Packages
+ ed5bfedaf838fb00cc0fce7606c1929a 12141 main/binary-arm64/Packages.gz
  e5565575b6de66b26034fe4d01906a36 185 main/binary-arm64/Release
 SHA1:
- 606f1ec0dba315cf246660c513c0cb348b8998ec 38253 main/binary-arm64/Packages
- 837e46486bcffff4116aeac349f9666aa91bc684 11588 main/binary-arm64/Packages.gz
+ 4dff6814786afbb1743b4b73ae993078e437adcc 39951 main/binary-arm64/Packages
+ a1d10190456f5b39bfba671e09aa9f21321cc899 12141 main/binary-arm64/Packages.gz
  5700e0408a43d5a11fbabafe1321515994baeb89 185 main/binary-arm64/Release
 SHA256:
- fd4438078cdc794334c9f66ac8303a88d3cdeba5768f67cb7a9106ed147682f3 38253 main/binary-arm64/Packages
- c0831fe55e97902f134b5fcebfd2a8d928b0437f3fcc3c20774721159e66ec12 11588 main/binary-arm64/Packages.gz
+ a25d726c84ec0663a118a204e0fa5213076fc4c05f95a0905b86bf8bf90c6684 39951 main/binary-arm64/Packages
+ d277df33dded95e21ce821fa837197e8d44cc72b2666870f586980739c8f5ab5 12141 main/binary-arm64/Packages.gz
  9a2b06ba214eb29950a64a8bb77fe8ed7cabc5a1f1fe8fe777c7093728904ecb 185 main/binary-arm64/Release
 SHA512:
- 4e2f6976710d1324a6850032f2e8172901208f941e89957ac9b695d3b6f5a1f86eabd762c8402210770c6c2ae35e6de56da879806fc618ff85cd738c821763e3 38253 main/binary-arm64/Packages
- 3361c2bf0c3c41989476e14071a0d4493b3477490330328f690e4787d18e7dd61e073c67e77cb33cac288cd3c7ebbeab0a6838dbdc00b54961b13d75e4acbe69 11588 main/binary-arm64/Packages.gz
+ 98e852925a82f6cf3c69a9910929de782aa269b4ae2d008b82c8f8d39e1c96bdfc8fc0ea3845ffa5a9186f5fac30b29f0c234668acf9c4468a0e11f00acdcb14 39951 main/binary-arm64/Packages
+ b02095de90fecbd61004313e7bcb7ebee348ae21b025bedcb1a62ce80238abf4eeaa1876bd18e30afbf9b3d0db8dfa22af78c81cb7cf9eea7d88e2fce8c40de0 12141 main/binary-arm64/Packages.gz
  9e1b2a08439bd4124ce4b6400dba95a423ef3e5728bf101796230e7f04691a10139cf7c6f2b7b709e8a6a4fd6915723785e10573d4bca99e765f7f2447e6d5e8 185 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEJb+T8HQLzwHGu7wZjveyChgjRVMFAmZOBgkACgkQjveyChgj
-RVMfIAgAvfB2I9qw1eg3WCndcs6W+VDLVvqgq2rK1hP3esokfpdXeXEUdig+Hjjr
-W5/rlwhEHvkKP3LYBPOXJVtT7ukKu1NwIJifbkglMVpHfJl0tsqX5BZ7obiF8uyJ
-uspKirHiWl4/4FD/63ibZsA5gpO0uGqewOT4V55yw1xplwoarMv6AiQvx062Oipb
-TjxfvefEZmpK+4ADiRMb8M+WtsQws4S8z//UGCGYy2sVt1zW07cy6L70ktSAvnrV
-wbpXWQ3Lsqz2k2uEYxTuLua5JWMcLO0nPAp96IOAbVjjtx8T1zA2iWSdFDimXxke
-ApDSEYZlQEB+MHzcxI07PXx0YSo+kQ==
-=qsNe
+iQEzBAEBCAAdFiEEJb+T8HQLzwHGu7wZjveyChgjRVMFAmaigPYACgkQjveyChgj
+RVMOtAgAjXCFgfOkLomOKd52zf1PGsotcoP7NWvCnyL9mMzPMdQ/01PilsqE47JT
+03bQ8/vIR3FQ9JnxOYVAd03AC/LcEsOKbYDFzQ5M0nYEBnAxpTT0R1CVVba8Pgzy
+RvnBSrxA38Z6k29AtcJnCJTfBTFKsj2n73L5/qqi2VoYiJw6TCurZlnoA7UMqs9h
+wz6ZTt8Qo21JcexaDqo2CRivT+F3ru6WhKBvfi/dz62KlUdb3aPtL2YEVommBSyG
+wUBm1++c1kUvIaGu0JgWKKsW3XiuAd+OSFZU1u6qd1lcxbhm1ywSqLj1KojkLkLp
+tN+05O1sZqG0fMLEAGjwwJt4Y0v9tw==
+=9nCp
 -----END PGP SIGNATURE-----
