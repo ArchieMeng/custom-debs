@@ -1,3 +1,35 @@
+Package: adaptation-moto-rtwo
+Version: 0.0.0+git20241023072110.2500023.trixie
+Architecture: arm64
+Maintainer: ArchieMeng <archiemeng@protonmail.com>
+Installed-Size: 9
+Depends: linux-bootimage-moto-rtwo, adaptation-hybris-api33-phone, adaptation-moto-rtwo-configs (= 0.0.0+git20241023072110.2500023.trixie)
+Priority: optional
+Section: metapackages
+Filename: pool/main/a/adaptation-moto-rtwo/adaptation-moto-rtwo_0.0.0+git20241023072110.2500023.trixie_arm64.deb
+Size: 2132
+SHA512: 9c5ebac8d064a0f3c2afda0dbbf58fb3262cb2086ffa241c8e3ff716d892d1abfe71891a451433832f6f1ad570822f65ceba444fdaead4dd325113e7a47b13eb
+SHA256: 44c99e8c0c6704559d89361385d2809a5d5870dbe62a3edf7706dd2b0a4db777
+SHA1: 7be45efbcf8d697dab141a7c0a51d585803e2f40
+MD5sum: b847fa31fdac21afc62b75ba5904143b
+Description: Community adaptation for moto-rtwo - metapackage
+
+Package: adaptation-moto-rtwo-configs
+Source: adaptation-moto-rtwo
+Version: 0.0.0+git20241023072110.2500023.trixie
+Architecture: arm64
+Maintainer: ArchieMeng <archiemeng@protonmail.com>
+Installed-Size: 25
+Priority: optional
+Section: metapackages
+Filename: pool/main/a/adaptation-moto-rtwo/adaptation-moto-rtwo-configs_0.0.0+git20241023072110.2500023.trixie_arm64.deb
+Size: 4312
+SHA512: 0e95e3811465e5a7002001501d55cc3f9ff33c92940d3e638a30eca372dc54840816c63c788e655d0ddc5464ef119bd95bd64fb3d4748ad0ec82568e9981abda
+SHA256: 31a2f061f7c9fc2a84aaceb3236f648bf70b9c7f3eeec4f67eedb85a35afcc15
+SHA1: be57d060de4013e1e014ba5eeb3eee1aac03c0b4
+MD5sum: b7fb805678d892ac3fc40a07445dd567
+Description: Community adaptation for moto-rtwo - adaptation configurations
+
 Package: libd3dadapter9-mesa
 Source: mesa
 Version: 24.1.3-2droidian1

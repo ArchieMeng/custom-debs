@@ -1,7 +1,5 @@
+Component: main
 Origin: archiemeng.github.io/custom-debs
 Label: Archie Meng's Custom Debs repository
-Codename: trixie
-Architectures: source arm64
-Components: main
+Architecture: source
 Description: Apt repository for Archie Meng's Custom Deb builds
-SignWith: 25BF93F0740BCF01C6BBBC198EF7B20A18234553
