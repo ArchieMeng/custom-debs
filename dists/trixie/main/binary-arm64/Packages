@@ -515,20 +515,20 @@ Description: Linux kernel for Sony Xperia 5 II - Android Boot Image
 
 Package: linux-bootimage-5.15-152-moto-rtwo
 Source: linux-android-moto-rtwo
-Version: 0.0.0+git20241023112445.d797bf3.droidian
+Version: 0.0.0+git20241023162925.0b35af2.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 36787
+Installed-Size: 37350
 Pre-Depends: flash-bootimage (>= 4)
-Depends: linux-image-5.15-152-moto-rtwo (= 0.0.0+git20241023112445.d797bf3.droidian)
+Depends: linux-image-5.15-152-moto-rtwo (= 0.0.0+git20241023162925.0b35af2.droidian)
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-android-moto-rtwo/linux-bootimage-5.15-152-moto-rtwo_0.0.0+git20241023112445.d797bf3.droidian_arm64.deb
-Size: 37251740
-SHA512: 9b145966e50fd10fa74e8865481e0e057696df30022b1e85fb5c36f68b3eca8a4e4bc7662aea33fff4428271f56eda7e213e3176f3fdd0723ebb308d650b1091
-SHA256: 07e71b92ceb074ba4db2b5b58d02eb5841119e06e85ddfc9b2f7f07bfdfdad1e
-SHA1: 1bea6200ace9e893e555ef53fc3a9529bcafa2d9
-MD5sum: 7c723afdade9e1d3a5de1639310fc346
+Filename: pool/main/l/linux-android-moto-rtwo/linux-bootimage-5.15-152-moto-rtwo_0.0.0+git20241023162925.0b35af2.droidian_arm64.deb
+Size: 37287536
+SHA512: be8a11741aeedc04247a510b3ba5e269c0a50a31fff086b541294dfc0356462c95cbbb4ed3b38dc99898e2b0a62ff3c491413c5603ede6b6df5c83eaa37ad253
+SHA256: 62c2872f80340d9a80baab7f9c921c9b0e0f140a6f0005f3f2a64f87fbf81c36
+SHA1: 4759a1f3ce3212a996b5c2fce3d21c99a729147f
+MD5sum: 1e38aab2ebba1a948d594a9b8b9d9499
 Description: Linux kernel for Motorola X40 - Android Boot Image
  This package contains the Linux kernel for the Motorola X40 device.
  .
@@ -537,19 +537,19 @@ Description: Linux kernel for Motorola X40 - Android Boot Image
 
 Package: linux-bootimage-moto-rtwo
 Source: linux-android-moto-rtwo
-Version: 0.0.0+git20241023112445.d797bf3.droidian
+Version: 0.0.0+git20241023162925.0b35af2.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
 Installed-Size: 121
-Depends: linux-bootimage-5.15-152-moto-rtwo (= 0.0.0+git20241023112445.d797bf3.droidian)
+Depends: linux-bootimage-5.15-152-moto-rtwo (= 0.0.0+git20241023162925.0b35af2.droidian)
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-android-moto-rtwo/linux-bootimage-moto-rtwo_0.0.0+git20241023112445.d797bf3.droidian_arm64.deb
-Size: 119844
-SHA512: c2218e20807db02646dc78bdf6c211c4488265ccafbacf48a8330c0a3cef4576b5ced1e46ebfb8d21a75866ba66e68d69be8b9e079b0ca82e9219f9f09af6a58
-SHA256: 21067f4ef4916a7d1382e7601047ef182e61ac47d062db6a15568746758864bd
-SHA1: f6fac12f372218b410e1b3c3b3633e4b6c366faf
-MD5sum: 522f8ca5b745889c6dce75272847bf29
+Filename: pool/main/l/linux-android-moto-rtwo/linux-bootimage-moto-rtwo_0.0.0+git20241023162925.0b35af2.droidian_arm64.deb
+Size: 119828
+SHA512: 782f5a29d1e3082ecdb5df2261e94275400917b2c907301842268cd39ef7ccb1979f85748446f735e5b692e5e8c152fd1b07c1ad7ea86699cc530023fa7920a8
+SHA256: 8f758a0b53d413990c2bb6979778aa98b770328a8db2d384414549d6d711b83d
+SHA1: fd8a6e94dab34139a757859a8c7f3434a841eda1
+MD5sum: d001f7bcc1cff19dca58c4c3bb5d522a
 Description: Linux kernel for Motorola X40 - Android Boot Image  (latest)
  This package depends to the latest kernel bootimage available for the Motorola X40.
 
@@ -591,37 +591,37 @@ Description: Linux kernel for Sony Xperia 5 II - Headers
 
 Package: linux-headers-5.15-152-moto-rtwo
 Source: linux-android-moto-rtwo
-Version: 0.0.0+git20241023112445.d797bf3.droidian
+Version: 0.0.0+git20241023162925.0b35af2.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
 Installed-Size: 60709
-Depends: linux-image-5.15-152-moto-rtwo (= 0.0.0+git20241023112445.d797bf3.droidian)
+Depends: linux-image-5.15-152-moto-rtwo (= 0.0.0+git20241023162925.0b35af2.droidian)
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-android-moto-rtwo/linux-headers-5.15-152-moto-rtwo_0.0.0+git20241023112445.d797bf3.droidian_arm64.deb
-Size: 9869376
-SHA512: 04806e4008da9ca995166cf1f854cd27d3367939bdbd380a75b2e4502a3ff8fc2ed59d9bac0b2f79264d748efde4581aaac55f483792782466ff2d0debe4fd16
-SHA256: a2f41ded538a862758c927e16349f48d148dd3df0b456c5c898ac06d44f1e0e1
-SHA1: cc119415e782283e8421634a69e2502386174faf
-MD5sum: 7d70fb080efce2507d36252cb675d455
+Filename: pool/main/l/linux-android-moto-rtwo/linux-headers-5.15-152-moto-rtwo_0.0.0+git20241023162925.0b35af2.droidian_arm64.deb
+Size: 9868364
+SHA512: e518bb9dddc7478ba862976daa989b74fdcd8a37dcf939a1855ba68245530d37e81aa388371c4f9206d66db20fde9b235073cb10af93ae976c5701f2bf4b60b9
+SHA256: e3ab275bb9c871152b5a90c820112347a619056bb994753a7a02683da4477fda
+SHA1: 13422f5814e1a603d7d0c2da8b00563037c9a1ac
+MD5sum: ef638eb8327a5c1c666ff75643de3b00
 Description: Linux kernel for Motorola X40 - Headers
  This package contains the Linux kernel headers for the Motorola X40 device.
 
 Package: linux-headers-moto-rtwo
 Source: linux-android-moto-rtwo
-Version: 0.0.0+git20241023112445.d797bf3.droidian
+Version: 0.0.0+git20241023162925.0b35af2.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
 Installed-Size: 121
-Depends: linux-headers-5.15-152-moto-rtwo (= 0.0.0+git20241023112445.d797bf3.droidian)
+Depends: linux-headers-5.15-152-moto-rtwo (= 0.0.0+git20241023162925.0b35af2.droidian)
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-android-moto-rtwo/linux-headers-moto-rtwo_0.0.0+git20241023112445.d797bf3.droidian_arm64.deb
-Size: 119832
-SHA512: 874de8ceb789a9d6d4902517019b16f4e1f684746383ae16fe20a04be090c5b70eef2fac2e10f159ded7318f29325563c7701324ce577dc65282adb3ee995bf3
-SHA256: 018d3e05b7c77f834dbd581be3bf7d63847bdc57f6bc068df1e01bcbf274175d
-SHA1: e8fa5ae10f7a0a6a3d71f21526c2f789ef625d4e
-MD5sum: 78774537689876125b27847e1af6061a
+Filename: pool/main/l/linux-android-moto-rtwo/linux-headers-moto-rtwo_0.0.0+git20241023162925.0b35af2.droidian_arm64.deb
+Size: 119808
+SHA512: 0fb20298d963dff71aaa90bf481b433a0035a22babc0792650eb011788df939399ce5b64bc87a1889b8f4bd7d4be8d88275455470e389388e4e566999009b960
+SHA256: fa08eab4ed465924ea089ec55b2d829a77eae23a833051c45a1b6b7c3aa11e2f
+SHA1: f2b0c26eff4b87028e6d6e970095b6ca19f45beb
+MD5sum: 087483c71fc431a01659675a70a91953
 Description: Linux kernel for Motorola X40 - Headers (latest)
  This package depends to the latest kernel headers available for the Motorola X40.
 
@@ -666,18 +666,18 @@ Description: Linux kernel for Sony Xperia 5 II
 
 Package: linux-image-5.15-152-moto-rtwo
 Source: linux-android-moto-rtwo
-Version: 0.0.0+git20241023112445.d797bf3.droidian
+Version: 0.0.0+git20241023162925.0b35af2.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 3595
+Installed-Size: 3718
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-android-moto-rtwo/linux-image-5.15-152-moto-rtwo_0.0.0+git20241023112445.d797bf3.droidian_arm64.deb
-Size: 2477004
-SHA512: 895bde2ab7f80a44eb2191dfd32d3f532a12535ae09628e62f33240096fe833f73a3a23d8b4f0781993810319a67d12d3ea4756e2165423d7228031dd78e0214
-SHA256: c3a3e628549ee1c90e3bd241852a25656c3ea189d12bbd1ed115171345363df6
-SHA1: 186acc45017f31a39902e0b044ed3dbbf927b2e4
-MD5sum: 83ad7e3a30004b301f414de554b581c6
+Filename: pool/main/l/linux-android-moto-rtwo/linux-image-5.15-152-moto-rtwo_0.0.0+git20241023162925.0b35af2.droidian_arm64.deb
+Size: 2482280
+SHA512: e6000182ae3f8a77d40c77e36c3a60f82c2a81d9c305189328eda218a7b6fc905719dc6b9d1f6da2031e1a692ba4643bf06ad126123c203425341f257e8e2842
+SHA256: 9a2b8a421911f969c681d8a87127e5d90a4c08658cea363abf803ba32e391425
+SHA1: 4bf31bc422e15ca3dcd3ae9729b324fb86e68217
+MD5sum: 3bb1fe91e2ae2e91971d6fdb288df4a6
 Description: Linux kernel for Motorola X40
  This package contains the Linux kernel for the Motorola X40 device.
  .
@@ -687,19 +687,19 @@ Description: Linux kernel for Motorola X40
 
 Package: linux-image-moto-rtwo
 Source: linux-android-moto-rtwo
-Version: 0.0.0+git20241023112445.d797bf3.droidian
+Version: 0.0.0+git20241023162925.0b35af2.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
 Installed-Size: 121
-Depends: linux-image-5.15-152-moto-rtwo (= 0.0.0+git20241023112445.d797bf3.droidian)
+Depends: linux-image-5.15-152-moto-rtwo (= 0.0.0+git20241023162925.0b35af2.droidian)
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-android-moto-rtwo/linux-image-moto-rtwo_0.0.0+git20241023112445.d797bf3.droidian_arm64.deb
-Size: 119828
-SHA512: f6497ac1a249cad48518439407aaf366200e5f71fe0ec263f878d0809b045d760f3c57703afa14ad6f094dcf87d05189e7c24e4ff108bc2d24795541b31400f8
-SHA256: fdc7b430b0272da3a025cb8dec45f411e9e3b54f3760c4fc8e9d80f59505691c
-SHA1: a1417be6cba7287aeed2aa7cea3a3a35a20717f1
-MD5sum: 44d36dfefbaf1f3ea496a5d079674ef3
+Filename: pool/main/l/linux-android-moto-rtwo/linux-image-moto-rtwo_0.0.0+git20241023162925.0b35af2.droidian_arm64.deb
+Size: 119792
+SHA512: 3f071a86659d862106124a8e57a98113fa8ca2dcf3f4492a441d1b0c3590362f0bb38bbe531ed3c244fa012ce27524ce33bf5cfe4c19a880613da71b395d27e0
+SHA256: fc89cf46dc03b2fd7c28f85bc7c4b5566eb77acefed1ffe8efcd90e5f299d180
+SHA1: 25c1f9cd08fe44e73094ab2828c7ee55b8a86b66
+MD5sum: b608a19371ab0a0478111a3d704ecf54
 Description: Linux kernel for Motorola X40 (latest)
  This package depends to the latest kernel image available for the Motorola X40.
 
