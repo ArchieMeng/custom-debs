@@ -1,34 +1,34 @@
 Origin: archiemeng.github.io/custom-debs
 Label: Archie Meng's Custom Debs repository
 Codename: trixie
-Date: Mon, 25 Nov 2024 16:56:24 UTC
+Date: Sun, 01 Dec 2024 06:03:24 UTC
 Architectures: arm64
 Components: main
 Description: Apt repository for Archie Meng's Custom Deb builds
 MD5Sum:
- 4809a405c834910d882a579a5f66f893 50096 main/binary-arm64/Packages
- 4e444f9510fc4299087b0127ee349d7d 14600 main/binary-arm64/Packages.gz
+ f60826487cd247b977a4d6aa47b08c31 53094 main/binary-arm64/Packages
+ 1decb9227a95e89d37219ab1e277dc47 15260 main/binary-arm64/Packages.gz
  e5565575b6de66b26034fe4d01906a36 185 main/binary-arm64/Release
  4af99578831979c1c2b960fed0d6db9d 1288 main/source/Sources
  30784c15a9eecb368d3f70299b06ff43 545 main/source/Sources.gz
  7f9caeca149875fc0466a4cc9052866c 186 main/source/Release
 SHA1:
- ce4a06cd34102784505109d6f02f933b0b3d73af 50096 main/binary-arm64/Packages
- a4516edb7b9891bd8a1b19c4a89c5a57fbacadc9 14600 main/binary-arm64/Packages.gz
+ e731ca84dfec6add7ddefd4d55f98c19e0d229b7 53094 main/binary-arm64/Packages
+ f18b17479cdd96f1b53c6f0bf4590ba9ab289826 15260 main/binary-arm64/Packages.gz
  5700e0408a43d5a11fbabafe1321515994baeb89 185 main/binary-arm64/Release
  9854f42e36a7c4566d4317c985f3f87067d1a879 1288 main/source/Sources
  5885a33a8bfb3774fa33e8f21cf4118221d10419 545 main/source/Sources.gz
  5240c2087e3c76eea1ec7f42635789e1a9566a14 186 main/source/Release
 SHA256:
- b8e7e76a7e5a99e39ce42a611bdfc8358760636c9368d8b0e3f18f0c3a0a6850 50096 main/binary-arm64/Packages
- 515e0653f0c31e3344e2f569794e83f6734981441e17bcb73a570aba54556be6 14600 main/binary-arm64/Packages.gz
+ 6ccc6dbc597dc811335714912a4247262297fd4b83555af365dbe0aa598f3664 53094 main/binary-arm64/Packages
+ 2a3a08aa77963a161fd6a4ef53f27b23243124661674daefdd10dbe10849e5fd 15260 main/binary-arm64/Packages.gz
  9a2b06ba214eb29950a64a8bb77fe8ed7cabc5a1f1fe8fe777c7093728904ecb 185 main/binary-arm64/Release
  c643335b4f7d4f2e564143f697d99aee2b8f2d1e27352d54f6788888f0612ef6 1288 main/source/Sources
  fc483526628c06b5558da14076bf34d0011fc9c5a2259c5668f088626005e9f5 545 main/source/Sources.gz
  d3654012068f229469cb5b1ad87d58c23f56bc740f3217cf6784067bb44da627 186 main/source/Release
 SHA512:
- 84197ed4c0f43dd3b6a569c0772d280032676fe2e129d767bffb3d66f1fdf415d0f40510619559f84edab81c30459ff854b5ceee14733d9aac20e28e1809cb79 50096 main/binary-arm64/Packages
- 1f6868066974dfbd600a5d3c7d54839e848ea706c3cd901cacc4638a8d0d76e0789bdc19ce4cd7b6bca132ce92289cb94a4acd879ac7483c72c1a77c132a9c8c 14600 main/binary-arm64/Packages.gz
+ 5700d4bd377f2f13333fdc71ab316642482c4d5bf8d52b828a785323ad9546f77471e04ef58836ba36ae4f29a85dbe803c75f7da26eba9508955240bd2a150a7 53094 main/binary-arm64/Packages
+ 4a765423d333712730f1032b36374aca54cbc07a2529d467b63bb753614a1a14f3a1f6bee04c3044c76840c042d03685293d66feff54c7856024c5f4350a2a94 15260 main/binary-arm64/Packages.gz
  9e1b2a08439bd4124ce4b6400dba95a423ef3e5728bf101796230e7f04691a10139cf7c6f2b7b709e8a6a4fd6915723785e10573d4bca99e765f7f2447e6d5e8 185 main/binary-arm64/Release
  fcbca7123df8b9c6cd38282a494cc7cd73fd70c13133ce94e55378f74a47bcead79724cdc0fe1c2daf011105b2349e1471d1e2603ed3c7007b8e4e5cdf21edbb 1288 main/source/Sources
  f0fbd88915ef9d02607eef40ffa1cb4d50f0527d86273887539a3cc7ee78d0d3690f12fa6f3a84e3cacb8cb262640e75ec49c59d915bf96142d60d083d6f33d3 545 main/source/Sources.gz
