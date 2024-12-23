@@ -535,28 +535,6 @@ Description: Linux kernel for Sony Xperia 5 II - Android Boot Image
  Note: This package ships an Android Boot Image bundled with Halium's
  initramfs.
 
-Package: linux-bootimage-5.15-152-moto-rtwo
-Source: linux-android-moto-rtwo
-Version: 0.0.0+git20241023162925.0b35af2.droidian
-Architecture: arm64
-Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 37350
-Pre-Depends: flash-bootimage (>= 4)
-Depends: linux-image-5.15-152-moto-rtwo (= 0.0.0+git20241023162925.0b35af2.droidian)
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-android-moto-rtwo/linux-bootimage-5.15-152-moto-rtwo_0.0.0+git20241023162925.0b35af2.droidian_arm64.deb
-Size: 37287536
-SHA512: be8a11741aeedc04247a510b3ba5e269c0a50a31fff086b541294dfc0356462c95cbbb4ed3b38dc99898e2b0a62ff3c491413c5603ede6b6df5c83eaa37ad253
-SHA256: 62c2872f80340d9a80baab7f9c921c9b0e0f140a6f0005f3f2a64f87fbf81c36
-SHA1: 4759a1f3ce3212a996b5c2fce3d21c99a729147f
-MD5sum: 1e38aab2ebba1a948d594a9b8b9d9499
-Description: Linux kernel for Motorola X40 - Android Boot Image
- This package contains the Linux kernel for the Motorola X40 device.
- .
- Note: This package ships an Android Boot Image bundled with Halium's
- initramfs.
-
 Package: linux-bootimage-5.15-167-moto-rtwo
 Source: linux-android-moto-rtwo
 Version: 0.0.0+git20241222144149.7cdf0fb.droidian
@@ -650,24 +628,6 @@ SHA1: 0259bc50a6f768d703b169faad2c5bc5e3b5a8ef
 MD5sum: a4002aa543baa159eee1737ec539a9a2
 Description: Linux kernel for Sony Xperia 5 II - Headers
  This package contains the Linux kernel headers for the Sony Xperia 5 II device.
-
-Package: linux-headers-5.15-152-moto-rtwo
-Source: linux-android-moto-rtwo
-Version: 0.0.0+git20241023162925.0b35af2.droidian
-Architecture: arm64
-Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 60709
-Depends: linux-image-5.15-152-moto-rtwo (= 0.0.0+git20241023162925.0b35af2.droidian)
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-android-moto-rtwo/linux-headers-5.15-152-moto-rtwo_0.0.0+git20241023162925.0b35af2.droidian_arm64.deb
-Size: 9868364
-SHA512: e518bb9dddc7478ba862976daa989b74fdcd8a37dcf939a1855ba68245530d37e81aa388371c4f9206d66db20fde9b235073cb10af93ae976c5701f2bf4b60b9
-SHA256: e3ab275bb9c871152b5a90c820112347a619056bb994753a7a02683da4477fda
-SHA1: 13422f5814e1a603d7d0c2da8b00563037c9a1ac
-MD5sum: ef638eb8327a5c1c666ff75643de3b00
-Description: Linux kernel for Motorola X40 - Headers
- This package contains the Linux kernel headers for the Motorola X40 device.
 
 Package: linux-headers-5.15-167-moto-rtwo
 Source: linux-android-moto-rtwo
@@ -763,27 +723,6 @@ Description: Linux kernel for Sony Xperia 5 II
  .
  Note: This package only ships the kernel image and modules, you should probably
  look at the linux-bootimage-4.19-322-sony-pdx206 package for a bootimage suitable
- for Android boot loaders.
-
-Package: linux-image-5.15-152-moto-rtwo
-Source: linux-android-moto-rtwo
-Version: 0.0.0+git20241023162925.0b35af2.droidian
-Architecture: arm64
-Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 3718
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-android-moto-rtwo/linux-image-5.15-152-moto-rtwo_0.0.0+git20241023162925.0b35af2.droidian_arm64.deb
-Size: 2482280
-SHA512: e6000182ae3f8a77d40c77e36c3a60f82c2a81d9c305189328eda218a7b6fc905719dc6b9d1f6da2031e1a692ba4643bf06ad126123c203425341f257e8e2842
-SHA256: 9a2b8a421911f969c681d8a87127e5d90a4c08658cea363abf803ba32e391425
-SHA1: 4bf31bc422e15ca3dcd3ae9729b324fb86e68217
-MD5sum: 3bb1fe91e2ae2e91971d6fdb288df4a6
-Description: Linux kernel for Motorola X40
- This package contains the Linux kernel for the Motorola X40 device.
- .
- Note: This package only ships the kernel image and modules, you should probably
- look at the linux-bootimage-5.15-152-moto-rtwo package for a bootimage suitable
  for Android boot loaders.
 
 Package: linux-image-5.15-167-moto-rtwo
