@@ -782,6 +782,23 @@ MD5sum: 9af18e9a4b242c537c019ec82937438c
 Description: Linux kernel for Sony Xperia 5 II (latest)
  This package depends to the latest kernel image available for the Sony Xperia 5 II.
 
+Package: linux-packaging-snippets
+Version: 0.0.0+git20241219035912.efec34e.droidian
+Architecture: all
+Maintainer: Eugenio Paolantonio (g7) <eugenio@droidian.org>
+Installed-Size: 56
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-packaging-snippets/linux-packaging-snippets_0.0.0+git20241219035912.efec34e.droidian_all.deb
+Size: 12116
+SHA512: dd9e478c79a3b9494b213cb07fd84e4349b627f7b4f3af9dd3c7a2b7d5246205069882d81975b0885effa4620dde02f995ec4232092467a8e3799daa8a4593a1
+SHA256: 15ba6fe19216816e6c7c207d1ee91a930734be1d142600eca4f84399bec47dd0
+SHA1: d1a6290887c36ee5e1d7d3e2df4c64f90c27b33e
+MD5sum: 72326efa0c621e584c2e2fc8036b2cbc
+Description: Linux kernel packaging snippets for Droidian
+ This package contains various snippets for packaging Droidian
+ kernels.
+
 Package: mesa-common-dev
 Source: mesa
 Version: 24.1.3-2droidian1
