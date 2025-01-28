@@ -30,6 +30,39 @@ SHA1: 1726c59f5a76881d8d39cdf19115b0665f4fecc8
 MD5sum: f22c99eb0e354ff53313e1e73d3ba5c3
 Description: Community adaptation for moto-rtwo - adaptation configurations
 
+Package: adaptation-sony-pdx206
+Version: 0.0.0+git20230406015642.ed69595.bookworm
+Architecture: all
+Maintainer: Peter Cai <peter@typeblog.net>
+Installed-Size: 9
+Depends: linux-bootimage-sony-pdx206, adaptation-hybris-api30-phone, adaptation-sony-pdx206-configs
+Priority: optional
+Section: metapackages
+Filename: pool/main/a/adaptation-sony-pdx206/adaptation-sony-pdx206_0.0.0+git20230406015642.ed69595.bookworm_all.deb
+Size: 2264
+SHA512: 6fcaf9bdd1c8c00e7e549a7b66ebd343f6364c59aea5269a8493388179eefd6308a03c2b4f9308342a69846d6dc167294c3190bca4f081b0109f22dd369d0bba
+SHA256: 6f99c5e1204afdbb3e243287df2851bb8a6db66ef70f8c94ff2d13b54e4ceb43
+SHA1: 7c9e72d9a14dfb97abd3f66a51c69365ce218a91
+MD5sum: ffc6736e7a1a735e0d119abbae77dbcb
+Description: adapatation-sony-pdx206 - meta
+ Sony Xperia 5 II api30 adaptation metapackage
+
+Package: adaptation-sony-pdx206-configs
+Source: adaptation-sony-pdx206
+Version: 0.0.0+git20230406015642.ed69595.bookworm
+Architecture: all
+Maintainer: Peter Cai <peter@typeblog.net>
+Installed-Size: 45
+Priority: optional
+Section: metapackages
+Filename: pool/main/a/adaptation-sony-pdx206/adaptation-sony-pdx206-configs_0.0.0+git20230406015642.ed69595.bookworm_all.deb
+Size: 4564
+SHA512: fd188234017b4ef298f9ce4b6748ef97d2d63414d9b92a03bee71463cbb4b9419a50daf1f2b9088ff649765acc521f8a132f31e62cfe21cf7e89e812a8d68aea
+SHA256: 6cc9c47062aaa14b7a30a02c951406e1202450b3fe96a64a4399da9283c8d3a4
+SHA1: 29235a93b64e62c2466b0a6c5239009640812771
+MD5sum: b36c361b0405e084a126a1c59debb122
+Description: Sony Xperia 5 II's specific adaptation configs
+
 Package: libd3dadapter9-mesa
 Source: mesa
 Version: 24.3.0-1
