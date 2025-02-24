@@ -1,0 +1,90 @@
+name: Generate and Deploy Debian Repo
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+env:
+  CODENAME: trixie
+  COMPONENTS: main
+  ARCHITECTURES: "arm64"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      artifact_id: ${{ steps.upload-artifact.outputs.artifact-id }}
+      keyring: ${{ steps.create-apt-repo.outputs.keyring }}
+    steps:
+      - name: Extract repository name
+        id: repo-info
+        run: |
+          # Split 'owner/repo' string into its components
+          echo "REPO_NAME=$(echo ${{ github.repository }} | cut -d'/' -f2)" >> $GITHUB_ENV
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Create Packages
+        run: |
+          mkdir -p packages
+          while read package_url; do
+            echo "Processing package URL: $package_url"
+            package_base_url="$package_url"
+            files_url="$package_base_url/files"
+
+            # Download the "files" list
+            wget -q "$files_url" -O files.list
+            if [ -s "files.list" ]; then # Check if files.list exists and is not empty
+              while read package_file; do
+                package_file_url="$package_base_url/$package_file"
+                echo "Downloading package: $package_file_url"
+                wget -q "$package_file_url" -P packages
+                if [ ! -f "packages/$package_file" ]; then
+                  echo "Error downloading package file: $package_file_url"
+                  exit 1 # Exit the workflow on error
+                fi
+              done < files.list
+              rm files.list # Clean up files.list
+            else
+              echo "Error: Could not download or empty files.list from $files_url"
+              exit 1 # Exit the workflow on error
+            fi
+          done < package_url.list
+      - name: Create APT Repository
+        id: create-apt-repo
+        uses: morph027/apt-repo-action@v3.5
+        with:
+          repo-name: ${{ env.REPO_NAME }}
+          scan-dir: ./packages  # Use the 'scan-dir' option
+          signing-key: ${{ secrets.SIGNING_KEY }}
+          codename: ${{ env.CODENAME }}
+          components: ${{ env.COMPONENTS }}
+          architectures: ${{ env.ARCHITECTURES }}
+          import-from-repo-url: "https://archiemeng.github.io/custom-debs"
+
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: github-pages
+          path: ${{ steps.create-apt-repo.outputs.dir }}
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
