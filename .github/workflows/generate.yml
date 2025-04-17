@@ -61,7 +61,7 @@ jobs:
           done < package_url.list
       - name: Create APT Repository
         id: create-apt-repo
-        uses: morph027/apt-repo-action@v3.5
+        uses: morph027/apt-repo-action@v3.6
         with:
           repo-name: ${{ env.REPO_NAME }}
           scan-dir: ./packages  # Use the 'scan-dir' option
