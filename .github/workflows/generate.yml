@@ -1,6 +1,8 @@
 name: Generate and Deploy Debian Repo
 
 on:
+  schedule:
+    - cron: "0 23 * * *"  # run daily
   push:
   workflow_dispatch:
 
