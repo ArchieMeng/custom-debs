@@ -36,31 +36,15 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Create Packages
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           mkdir -p packages
-          while read package_url; do
-            echo "Processing package URL: $package_url"
-            package_base_url="$package_url"
-            files_url="$package_base_url/files"
+          while read rep; do
+            echo "Download $rep"
+            gh release download -D packages -p "*.deb" -R "$rep"
+          done < package_repos
 
-            # Download the "files" list
-            wget -q "$files_url" -O files.list
-            if [ -s "files.list" ]; then # Check if files.list exists and is not empty
-              while read package_file; do
-                package_file_url="$package_base_url/$package_file"
-                echo "Downloading package: $package_file_url"
-                wget -q "$package_file_url" -P packages
-                if [ ! -f "packages/$package_file" ]; then
-                  echo "Error downloading package file: $package_file_url"
-                  exit 1 # Exit the workflow on error
-                fi
-              done < files.list
-              rm files.list # Clean up files.list
-            else
-              echo "Error: Could not download or empty files.list from $files_url"
-              exit 1 # Exit the workflow on error
-            fi
-          done < package_url.list
       - name: Create APT Repository
         id: create-apt-repo
         uses: morph027/apt-repo-action@v3.6
